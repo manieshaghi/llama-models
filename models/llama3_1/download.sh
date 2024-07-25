@@ -143,3 +143,4 @@ do
         wget --continue ${PRESIGNED_URL/'*'/"${MODEL_PATH}/params.json"} -O ${TARGET_FOLDER}"/${MODEL_PATH}/params.json"
     fi
 done
+./download.sh
